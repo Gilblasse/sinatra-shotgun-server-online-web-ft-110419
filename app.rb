@@ -1,7 +1,7 @@
 require_relative 'config/environment'
-binding.pry
-class App < Sinatra::Base
 
+class App < Sinatra::Base
+binding.pry
   get '/' do 
     "Welcome to your app!!!! "
   end
